@@ -4,6 +4,7 @@
   "private": true,
   "description": "Proposta comercial da Evandro Sanches Agency para a Shimada",
   "scripts": {
+    "build": "node build.cjs",
     "start": "node server.js",
     "test": "node verify.cjs"
   }

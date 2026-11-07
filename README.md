@@ -1,5 +1,9 @@
 # Proposta Shimada
 
+## Publicação na Vercel
+
+`vercel.json` define explicitamente o projeto como estático (Framework Preset: Other). `node build.cjs` copia somente os sete arquivos públicos para `dist`. `server.js` serve apenas para desenvolvimento local e não precisa ser executado na Vercel. O diretório raiz do projeto na Vercel deve ser a raiz do repositório. Após enviar a configuração para `main`, conferir o novo deploy; ele não deve depender de funções Node para abrir a página.
+
 ## Escopo confirmado
 
 Ambos os planos incluem 3 vídeos por semana, além de criativos próprios para anúncios. Em gravações distantes, Evandro Sanches acompanha a equipe da Shimada ou a empresa repassa o valor do transporte, combinado antes da viagem. A quantidade de visitas não foi fixada. Condições de pagamento e data de envio ainda precisam ser preenchidas.

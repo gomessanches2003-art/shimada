@@ -1,6 +1,8 @@
 .preview-browser/
 preview-*.png
 node_modules/
+dist/
+.vercel/
 .env
 .env.*
 !.env.example

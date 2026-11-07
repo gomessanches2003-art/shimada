@@ -1,0 +1,10 @@
+{
+  "name": "proposta-shimada",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Proposta comercial da Evandro Sanches Agency para a Shimada",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node verify.cjs"
+  }
+}
